@@ -1,62 +1,27 @@
 # Snake & Beats 🎮🎵
 
-A retro-inspired web application combining the classic Snake game with a built-in music player. This project was completed as part of a **Google Cloud AI Studio codelab** to learn AI-assisted application development using Gemini.
+This repository contains the application generated while completing the Google Cloud **"Vibe Code with Gemini in Google AI Studio"** hands-on codelab.
 
-## About the Project
+## Purpose
 
-The application features:
+The goal of this lab was to explore AI-assisted application development using Google AI Studio and Gemini, including:
 
-- A playable Snake game
-- Integrated music player with demo tracks
-- Music controls (Play, Pause, Skip)
-- Live score counter
-- Dark neon-inspired user interface built with Tailwind CSS
+- Generating an application from natural language prompts
+- Refining the application through iterative prompting
+- Using annotations and system instructions
+- Connecting AI Studio to GitHub
+- Understanding the AI-assisted development workflow
 
-## What I Learned
+## About the Application
 
-Through this lab, I gained hands-on experience with:
+The generated application includes:
 
-- Building applications using **Google AI Studio Build Mode**
-- Prompt-driven UI and application generation with **Gemini**
-- Iteratively refining applications using prompts and annotations
-- Using **System Instructions** to maintain consistent design and coding style
-- Managing source code with **GitHub**
+- A Snake game
+- A music player with demo tracks
+- Music playback controls
+- A live score counter
+- A neon-themed user interface
 
-## Technologies
+## Note
 
-- React
-- Tailwind CSS
-- Google AI Studio
-- Gemini API
-- GitHub
-
-## Running the Project
-
-1. Clone the repository
-
-```bash
-git clone <repository-url>
-cd <repository-name>
-```
-
-2. Install dependencies
-
-```bash
-npm install
-```
-
-3. Create a `.env.local` file and add your Gemini API key
-
-```env
-GEMINI_API_KEY=your_api-key
-```
-
-4. Start the development server
-
-```bash
-npm run dev
-```
-
-## Acknowledgements
-
-This project was completed by following the **Google Cloud "Vibe Code with Gemini in Google AI Studio"** hands-on codelab. The purpose of the project was to learn AI-assisted application development workflows using Google AI Studio, Gemini and GitHub.
+This repository represents a learning exercise completed by following the official Google Cloud codelab. Its purpose is to demonstrate familiarity with Google AI Studio's workflow rather than original application development.
